@@ -7,13 +7,16 @@
 #    http://shiny.rstudio.com/
 #
 
-library(shiny)
-library(pracma)
-library(tidyverse)
-library(readr)
-library(plotly)
-library(TSEntropies)
-library(magrittr)
+pacman::p_load(shiny,
+               pracma,
+               tidyverse,
+               readr,
+               plotly,
+               TSEntropies,
+               magrittr)
+
+source('sampense.R')
+source('makerun.R')
 
 
 source('sampense.R')
