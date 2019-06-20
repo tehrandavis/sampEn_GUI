@@ -13,6 +13,8 @@ library(tidyverse)
 library(readr)
 library(plotly)
 library(TSEntropies)
+library(magrittr)
+
 
 source('sampense.R')
 source('makerun.R')
